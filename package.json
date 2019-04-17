@@ -1,0 +1,37 @@
+{
+    "name": "grunt-archive",
+    "version": "0.0.2",
+    "homepage": "",
+    "description": "A simple file archiving system using Grunt.",
+    "authors": [
+        {
+            "name": "Andre G. Bowlin",
+            "email": "agbowlin@gmail.com",
+            "homepage": "http://liquicode.com"
+        }
+    ],
+    "main": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/agbowlin/grunt-archive.git"
+    },
+    "license": "MIT",
+    "keywords": [
+        "grunt",
+        "archive"
+    ],
+    "files": [
+
+    ],
+    "ignore": [
+
+    ],
+    "dependencies": {
+        "grunt": "^1.0.4",
+        "grunt-bg-shell": "^2.3.3",
+        "moment": "^2.24.0"
+    },
+    "devDependencies": {
+
+    }
+}
