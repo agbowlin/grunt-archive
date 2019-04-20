@@ -5,7 +5,7 @@ module.exports = function(grunt)
 
 	// Get the command line arguments.
 	// - Required parameters.
-	const SOURCE_PATH = grunt.option('source');
+	const SOURCE_PATH = grunt.option('source') || '';
 	// - Optional parameters.
 	const MIRROR_ROOT = grunt.option('mirror') || 'sandbox/mirror';
 	const ARCHIVE_ROOT = grunt.option('archive') || 'sandbox/archive';
